@@ -24,8 +24,7 @@ module.exports = env => ({
             loader: 'url-loader',
             options: {
               name: '[path][name].[ext]',
-              limit: 8192,
-              esModule: false,
+              limit: 10000,
             },
           },
           'img-loader',
